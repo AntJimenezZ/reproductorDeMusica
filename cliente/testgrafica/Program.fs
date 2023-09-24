@@ -1,4 +1,4 @@
-﻿
+
 
 namespace CounterApp
 
@@ -10,7 +10,7 @@ open Avalonia.Controls
 open Avalonia.FuncUI // Importaciones para la GUI
 open Avalonia.FuncUI.DSL
 open Avalonia.Layout
-open Avalonia.Media                  //CAMBIAR LINEA 178, CON LA RUTA DE CARPETAS DESCARGAS
+open Avalonia.Media                  //CAMBIAR LINEA 49,82 y 178 CON LA RUTA CORRESPONDIENTE 
 
 
 open NAudio.Wave //Importacion de la musica
@@ -46,7 +46,7 @@ module Main =
                     if a = "siga" then
                         let mutable parte = cancionSonando.Current.Split([|','|])
                         let mutable cancion = parte[0]   
-                        let audioFile = @"canciones\" + cancion + ".mp3"
+                        let audioFile = @"C:\Users\noni4\RiderProjects\cliente\testgrafica\bin\Debug\net7.0\" + cancion + ".mp3"
                         Console.WriteLine("cancion:" + cancion)  
 
                         match (waveOut, audioFileReader) with
@@ -79,7 +79,7 @@ module Main =
                            try
                                 let mutable parte = selectedValue.Current.Split([|','|])
                                 let mutable cancion = parte[0]   
-                                let audioFile = @"C:\Users\noni4\Desktop\sockets\serverSocket2\listaCanciones\" + cancion + ".mp3"
+                                let audioFile = @"C:\Users\noni4\RiderProjects\cliente\testgrafica\bin\Debug\net7.0\" + cancion + ".mp3"
                                 Console.WriteLine("cancion:" + cancion)  
 
                                 // Detener la canción actual si está reproduciéndose
@@ -175,7 +175,7 @@ module Main =
                 // Solicitar una canción al servidor
                 writer.WriteLine("*"+cancion)
                 writer.Flush()
-                let carpetaCancionesDescargadas = @"C:\Users\noni4\RiderProjects\testgrafico\testgrafica\bin\Debug\net7.0\canciones"
+                let carpetaCancionesDescargadas = @"C:\Users\noni4\RiderProjects\cliente\testgrafica\bin\Debug\net7.0"
                 // Recibir la canción y guardarla en un archivo (cambia el nombre del archivo según tus necesidades)
                 
                 let fileName = Path.Combine(carpetaCancionesDescargadas, cancion + ".mp3")
