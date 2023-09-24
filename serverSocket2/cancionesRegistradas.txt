@@ -1,0 +1,10 @@
+Malbec,Duki,2021,25000
+Givenchy,Duki,2022,300
+Feel Good Inc,Gorillaz,2016,5000
+Trap Queen,Fetty Wap,2014,890
+Si Tu La Ves,Nicky Jam,2017,930
+Lucid Dreams,Juice WRLD,2018,580
+The Reason,Hoobastank,2009,987
+OTRA NOCHE EN MIAMI,Bad Bunny,2018,999 
+Hills and valleys,Buju Banton,2008,15
+Soy Peor,Bad Bunny,2016,10000
