@@ -8,7 +8,7 @@ NOTAS:
 3) El botón canción siguiente presenta problemas y hay que tocarlo muchas veces junto con el botón pausa/reanudar para que la canción siguiente se comience a reproducir,
 si se toca muchas veces el botón siguiente, la canción vuelve al inicio.
 4) Aunque no se encuentre implementado en la cliente, el server permite realizar todas las consultas correspondientes
-
+5) Botón retrocer y la barra de reproducción no tienen uso
 
 
 ![LigaCampeon](https://pbs.twimg.com/media/Epu45YBW4AAfaNL?format=jpg&name=medium)
